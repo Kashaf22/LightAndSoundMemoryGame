@@ -1,50 +1,60 @@
-Memory Game is a Light & Sound Memory game to apply for CodePath's SITE Program.
+Memory Game is a Light & Sound Memory game to apply for CodePath's Futureforce Tech Laundpad Salesforce Program.
 
 Submitted by: KASHAF MUJEEB
 
 Time spent: 12 hours spent in total
 
-Link to project: (LINK TO THE GAME WINDOW : https://aromatic-glib-dog.glitch.me) , (LINK TO THE CODE WINDOW: https://glitch.com/edit/#!/aromatic-glib-dog)
+Link to project: (LINK TO THE GAME WINDOW : https://amber-happy-daffodil.glitch.me ) , (LINK TO THE CODE WINDOW: https://glitch.com/edit/#!/amber-happy-daffodil)
 
 Required Functionality
 The following required functionality is complete:
+## Required Functionality
 
- Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
- "Start" button toggles between "Start" and "Stop" when clicked.
- Game buttons each light up and play a sound when clicked.
- Computer plays back sequence of clues including sound and visual cue for each button
- Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
- User wins the game after guessing a complete pattern
- User loses the game after an incorrect guess
-The following optional features are implemented:
+The following **required** functionality is complete:
 
- Any HTML page elements (including game buttons) has been styled differently than in the tutorial
- Buttons use a pitch (frequency) other than the ones in the tutorial
- More than 4 functional game buttons
- Playback speeds up on each turn
- Computer picks a different pattern each time the game is played
- Player only loses after 2 mistakes (instead of on the first mistake)
- Game button appearance change goes beyond color (e.g. add an image)
- Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
- User has a limited amount of time to enter their guess on each turn
-The following additional features are implemented:
+* [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [X] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [X] Game buttons each light up and play a sound when clicked. 
+* [X] Computer plays back sequence of clues including sound and visual cue for each button
+* [X] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [X] User wins the game after guessing a complete pattern
+* [X] User loses the game after an incorrect guess
 
-[] List anything else that you can get done to improve the app!
- Added a gif background image for better user graphics (the bird background image).
- The background image changes when the user wins or loses the game, showing a gif corresponding to "You win" , or "You lost"
- Player Strikes are shown and updated on the webpage everytime a player makes a mistake. A window alert is also given to the user.
- Changed the default cursor to grab cursor for better user experience.
- Everytime a user clicks a button , a new gif image linked to that button pops up.
- 
-Video Walkthrough (GIF)
+The following **optional** features are implemented:
+
+* [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [X] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [X] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [ ] Computer picks a different pattern each time the game is played
+* [X] Player only loses after 2 mistakes (instead of on the first mistake)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [] List anything else that you can get done to improve the app!
+- [X] Added a gif background image for better user graphics (the bird background image).
+- [X] The background image changes when the user wins or loses the game, showing a gif corresponding to "You win" , or "You lost"
+- [X] Player Strikes are shown and updated on the webpage everytime a player makes a mistake. A window alert is also given to the user. 
+- [X] Changed the default cursor to grab cursor for better user experience.
+- [X] Everytime a user clicks a button , a new gif image linked to that button pops up. 
+
+## Video Walkthrough (GIF)
+
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-Gif Final Part2PreWork (1) (1)
+![Gif Final](https://user-images.githubusercontent.com/89542741/160890000-12e2118d-9367-411b-a56f-28dbcda759ad.gif)
+![Part2PreWork (1) (1)](https://user-images.githubusercontent.com/89542741/160893144-a6a9b95d-df25-41a1-91fb-973cfd2f24d5.gif)
 
+
+![](gif3-link-here)
+![](gif4-link-here)
  
 
 Reflection Questions
-If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. I used the following websites for this pre-work:
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. I used the following websites for this pre-work:
 [Stack Overflow]: For modifying the frequency, Styling, and Syntax Help.
 
 [w3w schools]: For learning the syntax, adding background images to the Webpage, and learning how to send window alerts to the users.
@@ -59,7 +69,7 @@ If you used any outside resources to help complete your submission (websites, bo
 
 [Codepen.io] : To make functions that can show a new image when a specific button is clicked.
 
-What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 I encountered the following challenges while creating this submission:
 
 I) I have never done HTML, CSS, and JavaScript before, so it was a little bit challenging for me to grasp the syntax of these languages. For instance, in CSS I did not know how to hide seven different images before the game is started by the user. Similarly, in JavaScript, I did not know how I can change the webpage background when a function is called. To tackle these syntax challenges, I used the w3w school's website to do their "Try it for yourself" small coding exercises. These exercises were short and super helpful for me to understand how the basic syntax of these languages work. I also used the Stack Overflow community whenever I was stuck on a syntax problem that could not be solved using w3s school’s website.
@@ -70,10 +80,10 @@ III) I faced the hardest challenge while trying to link a unique image to every 
 
 IV) Lastly, I faced an issue while I was trying to implement my additional feature. I was trying to replace the game button images with win/loose game images once my user wins or loses the game. I had a tough time trying to implement that because my webpage keeps showing the image that is linked to the last button my user pressed. I found an alternative way to implement my feature, every time winGame() or loseGame() function was called in my game, instead of my gameButton images, my background image got updated to win/lose game images.
 
-What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 I have quite a few questions about web-development after doing this pre-work. Firstly, I am curious to know how a website works that has more than one page. Does having more than one page mean we need separate HTML, CSS, and JavaScript files for each webpage or is there a way to write code for all pages of a website in one CSS, HTML, and JavaScript file. Secondly, Other than JavaScript what kind of other programming languages can I use for web-development and which platforms other than Glitch can be used to develop websites. Lastly, how does the role of a full-stack web developer is different from that of front-end or back-end developer?
 
-If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
 If I had a few more hours to work on this project, then I would do the following things:
 
 I would write a function in JavaScript that would display a new message to the user every time they click a game button. For instance, if they are doing well in the game then every time, they get a cue right my game would display messages like “Well Done!”, “You are super close to winning” etc. In case, if a user is getting wrong cues, then my game would display encouraging messages like “Try it one more time! I know you can get it right etc.”
