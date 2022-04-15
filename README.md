@@ -95,7 +95,7 @@ I would also try to add a feature where my user can put in their name before sta
 I would also spend time trying to clean up my code. As of now, I have five functions in my JavaScript file to show images corresponding to game button. I would try to find a way to merge them into one so that my code looks more sophisticated and professional.
 
 Interview Recording URL Link
-[My 5-minute Interview Recording] (https://www.youtube.com/watch?v=ajYq4j72nL0)
+[My 5-minute Interview Recording] (https://youtu.be/HXhCSgEf--8)
 
 License
 Copyright [KASHAF MUJEEB]
